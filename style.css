@@ -1,0 +1,87 @@
+body{
+          background-image:linear-gradient(to top, rgba(72, 72, 72, 0.62),rgba(255, 255, 255, 0.69) );
+          background-repeat: no-repeat;
+          background-size: cover;
+          color :rgb(119, 0, 255);
+          background-image: url(https://w0.peakpx.com/wallpaper/556/82/HD-wallpaper-ms-dhoni-cricket-india-ms-dhoni-sports-thumbnail.jpg); 
+}
+
+header{
+          font-size: 1.6em;
+          font-weight: bold;
+          text-align: center;
+          color: aqua;
+          text-transform: uppercase;
+          padding-bottom: 50px;
+          background-image:linear-gradient(to left , rgba(255, 166, 0, 0.212),rgba(255, 0, 0, 0.25),rgba(13, 159, 13, 0.196));
+}
+
+#container{
+          display: block;
+          padding:50px;
+          margin: 50px;
+          color:rgb(42, 69, 165);
+          background-image:linear-gradient(to top,rgba(209, 15, 15, 0.304),rgba(255, 255, 255, 0.342)) ;
+          background-size: cover;
+          font-size: 1.3em;
+          font-family: 'Times New Roman', Times, serif;
+
+}
+label{
+          max-width: 100%;
+          display: block;
+          width: fit-content;
+          margin:10px;
+          padding-bottom:10px;
+}
+input,select,textarea{
+          width: 100%;
+          min-width: 300px;
+          /* margin: 10px,0,0,0; */
+          height: 2em;   
+          padding-bottom: 10px;
+          background-color: rgba(0, 0, 255, 0.399);  
+}
+.inline{
+          display: inline;
+          width: unset;
+          margin: 0px;
+          
+}
+fieldset{
+          border: none;
+          border-bottom: 2px solid yellowgreen;
+}
+input[type="submit"]{
+          display: block;
+          min-width: 500px;
+          min-height: 50px;
+          font-size: 1.4em;
+          text-decoration: solid;
+          text-transform:uppercase;
+          background-color: rgb(15, 96, 9);
+          margin-top: 150px;
+          margin-left: 175px;
+}
+input[type="submit"]:hover{
+          background-color: rgba(30, 160, 160, 0.291);
+}
+textarea:hover{
+          background-color: rgba(103, 70, 9, 0.276);
+}
+input:hover{
+          background-color: rgba(97, 67, 10, 0.276);
+}
+select:hover{
+          background-color: rgba(84, 56, 6, 0.17);
+}
+:placeholder-shown{
+          font-display:inherit;
+          text-decoration: solid black;
+}
+footer{
+          background-image: linear-gradient(to right , rgba(255, 0, 0, 0.279), green);
+          height:250px;
+          margin: 50px;
+          font-size:1.6em;
+}
