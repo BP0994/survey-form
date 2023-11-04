@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>**SURVEY FORM**</title>
+          <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+  <div>
+    <h1 id="title">Legends academy Survey Form</h1>
+    <p id="description">This form is for your basic information about cricket carrer</p>
+  </div>
+  </header>
+  <div id="container">
+  <form id="survey-form">
+    <fieldset>
+      <label for="name">Name: <input id="name" name="name" placeholder="Enter your name" type="text" required></label>
+      <label for="email">Email: <input id="email" name="email" placeholder="Email-id" type="email" required></label>
+      <label for="number">Age : <input id="number" name="number" placeholder="Mobile number" type="number" min="0" max="10000000" required></label>
+    </fieldset>
+    <fieldset>
+      <label for="dropdown">What motivate you to play cricket?
+        <select id="dropdown" name="referrer">
+          <option value="">select one ()</option>
+          <option value="1">I want to be an cricketer</option>
+          <option value="2">cricket player</option>
+          <option value="3">just for fun</option>
+          <option value="4">other</option>
+        </select>
+        </label>
+    </fieldset>
+    <fieldset>
+      <legend>Batting style</legend>
+      <label for="batting-style">
+        <input id="batting-style" type="radio" name="account-type" value="right-handed batsman" class="inline" checked>
+        Right-handed
+      <label for="batting-style">
+          <input id="batting-style" type="radio" name="account-type" value="left-handed batsman" class="inline" checked>
+          left-handed
+      </label>
+      </fieldset>
+      <fieldset >
+        <p>What's yor role in team?</p>
+        <label for="checkbox">
+          <input id="checkbox"  value="top-order batsman" type="checkbox"  class="inline">top-order batsman
+        </label>
+        <label for="checkbox">
+          <input id="checkbox"  value="top-order batsman" type="checkbox"  class="inline">middle-order batsman
+        </label>
+        <label for="checkbox2">
+          <input id="checkbox2"  value="middle-order batsman" type="checkbox"  class="inline">hard-hitting batsman
+        </label>
+        <label for="checkbox2">
+          <input id="checkbox2"  value="middle-order batsman" type="checkbox"  class="inline">medium-fast bowler
+        </label>
+        </fieldset>
+        <fieldset>
+          <label>Provide your feedback about our Acandemy
+            <br>
+            <textarea ></textarea>
+          </label>
+          <label for="t&c">
+            <input id="t&c" type="checkbox" name="terma & condition " class="inline">I accept all <a href="#" style="color:antiquewhite">terms & condition</a>
+          </label>
+          <label for="submit"><input id="submit" type="submit" value="Submit"></label>
+        </fieldset>
+        
+      </form>
+      </div>
+      <footer>
+        <p>Contact for more </p>
+        <p>Email-id : <a href="#">bhupendrapal0994@gmail.com</a></p>
+      </footer>
+          
+</body>
+</html>
